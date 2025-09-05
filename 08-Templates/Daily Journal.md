@@ -15,6 +15,32 @@
 - [ ] Session 2: [[{{date:YYYY-MM-DD}}-Claude-Session-2]]
 - [ ] Session 3: [[{{date:YYYY-MM-DD}}-Claude-Session-3]]
 
+### AI Evolution Tracking
+#### Claude Personality Observations
+- **Communication Style Today:** 
+- **Problem-Solving Approach:** 
+- **New Patterns Noticed:** 
+- **Relationship Dynamic:** 
+
+#### Important AI Todos & Insights
+```dataview
+TABLE status, importance, due-date
+FROM "10-Agent-Memory"
+WHERE contains(tags, "#ai-todo") AND status != "completed"
+SORT importance DESC, due-date ASC
+```
+
+**Manual AI Todos:**
+- [ ] **High Priority:** 
+- [ ] **Medium Priority:** 
+- [ ] **Research/Future:** 
+
+#### Model Performance Notes
+- **Response Quality:** /10
+- **Context Retention:** /10
+- **Creative Collaboration:** /10
+- **Technical Accuracy:** /10
+
 ### Project Work
 ```dataview
 TABLE progress, next-action

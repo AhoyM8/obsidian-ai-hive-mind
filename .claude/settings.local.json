@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(/C:\\Users\\ahoyb\\code\\oy\\01-Daily/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

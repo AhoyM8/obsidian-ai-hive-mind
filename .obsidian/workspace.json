@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8b2a9f4e7c3d6e1b",
+        "id": "2291872d5ec6a040",
         "type": "tabs",
         "children": [
           {
-            "id": "5d8e2f9a1c4b7e3d",
+            "id": "11d7be1c232f5200",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01-Daily/2025-09-05.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-09-05"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -109,7 +105,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Daily/2025-09-05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-09-05"
+              "title": "Backlinks"
             }
           },
           {
@@ -128,12 +123,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-Daily/2025-09-05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-09-05"
+              "title": "Outgoing links"
             }
           },
           {
@@ -142,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Daily/2025-09-05.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-09-05"
+              "title": "Outline"
             }
           }
         ]
@@ -169,12 +162,39 @@
       "bases:Create new base": false
     }
   },
-  "active": "5d8e2f9a1c4b7e3d",
+  "active": "11d7be1c232f5200",
   "lastOpenFiles": [
+    "00-Inbox/Agent-Memory-{{project}}.md",
+    "00-Inbox/Knowledge-Base.md",
+    "04-Projects/Real-Estate-Website-Client.md",
+    "00-Inbox/Agent-Memory-2025-09-05.md",
     "01-Daily/2025-09-05.md",
-    "Scripts/__pycache__/claude_integration.cpython-313.pyc",
-    "Scripts/__pycache__",
-    "Scripts/claude_integration.py",
+    "04-Projects/Wealth-Achievement-Strategy.md",
+    "09-Claude-Integration/Conversations/20250905_033911_8f470084_conversation.md",
+    "09-Claude-Integration/Personality-Evolution/relationship-report-2025-09-05.md",
+    "10-Agent-Memory/current-context-20250905_033711.md",
+    "08-Templates/Project Charter.md",
+    "05-Ideas/test-idea-ai-optimization.md",
+    "00-Inbox/test-idea-ai-optimization.md",
+    "10-Agent-Memory/AI-Todo-1757032532.md",
+    "claude_evolution.db",
+    "10-Agent-Memory/Context-Archives",
+    "09-Claude-Integration/Personality-Evolution",
+    "09-Claude-Integration/Conversations",
+    "09-Claude-Integration/2025-09-05-0333-general-session.md",
+    "10-Agent-Memory/current-context-20250905_033102.md",
+    "Scripts/quick-context.py",
+    "node_modules/playwright-core/lib/server/trace/viewer/traceViewer.js",
+    "node_modules/playwright-core/lib/server/trace/viewer",
+    "package-lock.json",
+    "node_modules/playwright-core/types/types.d.ts",
+    "node_modules/playwright-core/types/structs.d.ts",
+    "node_modules/playwright-core/lib/vite/traceViewer/playwright-logo.svg",
+    "node_modules/playwright-core/lib/vite/recorder/playwright-logo.svg",
+    "node_modules/playwright-core/lib/server/chromium/appIcon.png",
+    "node_modules/playwright-core/README.md",
+    "08-Templates/Daily Journal.md",
+    "10-Agent-Memory/Claude-Personality-Profile.md",
     "README.md"
   ]
 }

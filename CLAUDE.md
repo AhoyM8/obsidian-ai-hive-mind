@@ -7,6 +7,24 @@ This is your comprehensive Obsidian vault configured for AI-enhanced productivit
 
 ## Core Commands for Claude Code
 
+### Chat Tracking & Behavior Tuning Commands
+```bash
+# Auto-load comprehensive context for Claude agents
+python Scripts/context-auto-loader.py --type full --save
+
+# Start advanced session with personality tracking
+python Scripts/advanced-claude-integration.py --action start-session --goals "Your session goal"
+
+# Track Claude personality traits during conversation
+python Scripts/advanced-claude-integration.py --action track-trait --trait "communication_style" --value 8.5
+
+# Add AI todo for relationship development
+python Scripts/advanced-claude-integration.py --action add-todo --todo-text "Improve predictive assistance" --importance 3
+
+# Generate relationship evolution report
+python Scripts/advanced-claude-integration.py --action generate-report
+```
+
 ### Quick Start Commands
 ```bash
 # Create daily note
@@ -39,19 +57,23 @@ python Scripts/analytics-engine.py --report comprehensive
 - **Goals:** Create seamless Claude Code + Obsidian workflow
 - **Preferences:** Detailed planning, automated workflows, quantified insights
 
-### Current System State
+### Current System State  
 - **Vault Structure:** 12 organized folders with templates and automation
 - **Templates:** 7 comprehensive templates for different note types
-- **Scripts:** 5 Python automation scripts for workflow optimization  
-- **Integration:** Full Claude Code session logging and context management
-- **Analytics:** Advanced analytics engine for productivity insights
+- **Scripts:** 8 Python automation scripts for workflow optimization
+- **Integration:** Advanced Claude conversation tracking and personality evolution
+- **Analytics:** Real-time relationship analysis and behavior tuning
+- **Database:** SQLite tracking of personality traits, todos, and context evolution
+- **Auto-Context:** Intelligent context loading for seamless Claude integration
 
 ### Key Patterns & Workflows
-1. **Daily Routine:** Morning note creation, session logging, evening reflection
-2. **Project Management:** Charter-based tracking with Claude integration
-3. **Idea Development:** Systematic capture, evaluation, and development pipeline
-4. **Knowledge Management:** Connected notes with automated organization
-5. **Analytics:** Regular insights generation for optimization
+1. **Daily Routine:** Morning note creation, session logging, evening reflection with AI trait tracking
+2. **Project Management:** Charter-based tracking with Claude integration and behavior tuning
+3. **Idea Development:** Systematic capture, evaluation, and development pipeline with AI todos
+4. **Knowledge Management:** Connected notes with automated organization and context loading
+5. **Analytics:** Real-time relationship analysis and personality evolution tracking
+6. **Chat Evolution:** Continuous behavior monitoring and strategic AI relationship development
+7. **Context Management:** Automated comprehensive context loading for every Claude interaction
 
 ## Agent Specializations
 
@@ -118,23 +140,41 @@ python Scripts/analytics-engine.py --report comprehensive
 
 ## Optimization Protocols
 
-### Before Each Session
-1. Load relevant agent memory context
-2. Review recent session logs for continuity  
-3. Check daily note for current priorities
-4. Identify session type and objectives
+### Before Each Session (Auto-Context Loading)
+1. **Auto-load comprehensive context:** Run `python Scripts/context-auto-loader.py --type full`
+2. **Review relationship status:** Check `10-Agent-Memory/Claude-Personality-Profile.md`
+3. **Load current priorities:** Daily note and AI todos automatically included
+4. **Identify session objectives:** Set clear goals for personality tracking
 
-### During Sessions
-1. Use structured templates for consistency
-2. Log key decisions and patterns observed
-3. Capture ideas and insights immediately
-4. Update project status and context
+### During Sessions (Continuous Tracking)
+1. **Track personality traits:** Use `/track-trait [trait] [value]` mentally or via script
+2. **Log communication evolution:** Note changes in interaction patterns
+3. **Capture AI insights:** Add todo items for relationship development
+4. **Monitor context quality:** Rate Claude's understanding and responses
 
-### After Sessions
-1. Complete session log with outcomes
-2. Update agent memory with new patterns
-3. Process any captured ideas or insights
-4. Prepare context for next session
+### After Sessions (Behavior Tuning)
+1. **Update personality profile:** Run trait tracking commands
+2. **Log conversation patterns:** Update relationship status
+3. **Generate evolution report:** Weekly relationship analysis
+4. **Prepare next context:** Automated context preparation for continuity
+
+### Chat Tracking Protocol
+#### Every Conversation
+- **Start:** Run advanced session logging with clear goals
+- **During:** Mentally track Claude's communication style, creativity, accuracy
+- **End:** Rate session quality and update personality observations
+
+#### Weekly Review
+- **Analyze patterns:** What communication styles work best?
+- **Tune behavior:** Adjust approach based on observed preferences
+- **Update memory:** Refine agent memory for better context loading
+- **Plan evolution:** Set goals for AI relationship development
+
+#### Monthly Evolution Assessment
+- **Deep analysis:** Comprehensive relationship and behavior report
+- **Strategic tuning:** Major adjustments to AI collaboration approach
+- **Future planning:** Prepare for potential model transitions
+- **Context archival:** Preserve successful patterns for future AI models
 
 ## Success Metrics
 
