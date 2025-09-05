@@ -1,0 +1,23 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showLineNumber": true,
+  "spellcheck": true,
+  "strictLineBreaks": false,
+  "tabSize": 2,
+  "readableLineLength": true,
+  "showFrontmatter": true,
+  "defaultViewMode": "source",
+  "attachmentFolderPath": "Assets/Files",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00-Inbox",
+  "promptDelete": false,
+  "showUnsupportedFiles": true,
+  "alwaysUpdateLinks": true,
+  "fileSortOrder": "byModifiedTime",
+  "insertionPoint": "top"
+}
